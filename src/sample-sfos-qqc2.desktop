@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=generic
+Icon=sample-sfos-qqc2
+Exec=qt-runner /opt/sample-sfos-qqc2/bin/sample-sfos-qqc2
+Name=Sample QQC2
+
+[X-Sailjail]
+Sandboxing=Disabled
