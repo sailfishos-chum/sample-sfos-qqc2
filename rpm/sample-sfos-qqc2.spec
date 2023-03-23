@@ -7,6 +7,8 @@ URL:        https://github.com/sailfishos-chum/sample-sfos-qqc2
 Source0:    %{name}-%{version}.tar.bz2
 Requires:       qt-runner
 Requires:       opt-qt5-qtquickcontrols2 >= 5.15.8
+Requires:       opt-qt5-qtwayland >= 5.15.8
+Requires:       opt-qt5-sfos-maliit-platforminputcontext
 BuildRequires:  opt-qt5-qtdeclarative-devel >= 5.15.8
 BuildRequires:  opt-qt5-qtquickcontrols2-devel >= 5.15.8
 BuildRequires:  desktop-file-utils
