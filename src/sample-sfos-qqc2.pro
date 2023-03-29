@@ -4,10 +4,10 @@ QT += quick
 # In order to do so, uncomment the following line.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+CONFIG += c++11
+
 SOURCES += \
         main.cpp
-
-RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -16,11 +16,14 @@ QML_IMPORT_PATH =
 QML_DESIGNER_IMPORT_PATH =
 
 # Default rules for deployment.
-target.path = /opt/$${TARGET}/bin
+target.path = /usr/bin
 desktop.path  = /usr/share/applications
 desktop.files = *.desktop
 
 icons.path    = /usr/share/icons/hicolor/86x86/apps/
 icons.files   = sample-sfos-qqc2.png
 
-INSTALLS += target desktop icons
+qml.path    = /usr/share/$$TARGET/
+qml.files   = qml/
+
+INSTALLS += target desktop icons qml
