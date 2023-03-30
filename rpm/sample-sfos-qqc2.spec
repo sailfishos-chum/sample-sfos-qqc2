@@ -6,6 +6,7 @@ License:    BSD
 URL:        https://github.com/sailfishos-chum/sample-sfos-qqc2
 Source0:    %{name}-%{version}.tar.bz2
 Requires:       qt-runner
+Requires:       opt-qt5-qtwyland >= 5.15.8
 Requires:       opt-qt5-qtquickcontrols2 >= 5.15.8
 Requires:       opt-qt5-qtwayland >= 5.15.8
 Requires:       opt-qt5-sfos-maliit-platforminputcontext
