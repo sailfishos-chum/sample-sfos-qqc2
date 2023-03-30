@@ -12,6 +12,7 @@ Requires:       opt-qt5-sfos-maliit-platforminputcontext
 BuildRequires:  opt-qt5-qtdeclarative-devel >= 5.15.8
 BuildRequires:  opt-qt5-qtquickcontrols2-devel >= 5.15.8
 BuildRequires:  desktop-file-utils
+%{?opt_qt5_default_filter}
 
 %description
 Short description of my SailfishOS Application
