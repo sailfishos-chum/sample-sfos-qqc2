@@ -4,6 +4,8 @@ X-Nemo-Application-Type=generic
 Icon=sample-sfos-qqc2
 Exec=qt-runner /usr/bin/sample-sfos-qqc2
 Name=Sample QQC2
+X-Nemo-Single-Instance=no
+X-Nemo-Application-Type=no-invoker
 
 [X-Sailjail]
 Sandboxing=Disabled
